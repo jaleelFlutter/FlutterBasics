@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import 'BottomNavigation/ClsBottomNavigation.dart';
 import 'ContainerSub.dart';
 import 'Containercl.dart';
 import 'MyTask230125/ClsAppBar.dart';
@@ -18,6 +19,8 @@ import 'MyTask230125/clsLogin.dart';
 import 'MyTask230125/clsPageOne.dart';
 import 'MyTask230125/clsRwCl.dart';
 import 'MyTask230125/clsSignUp.dart';
+import 'Tab/ClsTab.dart';
+import 'Tab/ClsTabTest.dart';
 import 'clsStack.dart';
 import 'flutterBasics.dart';
 
@@ -60,7 +63,10 @@ class MyApp extends StatelessWidget {
       //home: DropdownFormExample(),
       //home: ClsValidation(),
       //home: clsStack(),
-      home: ClsListViewBuilder(),
+      //home: ClsListViewBuilder(),
+      //home: TabBarExample(),
+      //home: ClsTabTest(),
+      home: BottomNavExample(),
     );
   }
 }
